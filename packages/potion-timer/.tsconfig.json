@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "target": "es6",
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "strictPropertyInitialization": false,
+        "jsx": "preserve",
+        "strict": true,
+        "sourceMap": true,
+        "importHelpers": true,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "noImplicitThis": false,
+        "noImplicitAny": false,
+        "isolatedModules": true
+    },
+    "lib": [
+        "es6",
+        "dom",
+        "esnext.asynciterable"
+    ],
+    "paths": {
+        "@/packages*": [
+            "packages/*"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "types",
+        "**/dist"
+    ],
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx"
+    ]
+}
